@@ -2,5 +2,25 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",
     "tailwindcss": "^4.1.10"
-  }
+  },
+  "name": "portfolio-rezume-master",
+  "version": "1.0.0",
+  "description": "\"# portfolio-rezume-master\"",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/app.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholmatoviz/portfolio-rezume-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kholmatoviz/portfolio-rezume-master/issues"
+  },
+  "homepage": "https://github.com/kholmatoviz/portfolio-rezume-master#readme"
 }
